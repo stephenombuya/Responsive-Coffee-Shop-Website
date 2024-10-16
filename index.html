@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee Shop Website</title>
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">
+            <img src="JUMBO.png" alt="Jumbo Coffees">
+        </a>
+        <!-- Menu Icon -->
+         <i class="bx bx-menu" id="menu-icon"></i>
+         <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+         </ul>
+         <!-- Header Icon -->
+          <div class="header-icon">
+            <i class='bx bx-cart-alt'></i>
+            <i class='bx bx-search' id="search-icon"></i>
+          </div>
+          <!-- Search Box -->
+          <div class="search-box">
+            <input type="search" name="search-input" id="search-input" placeholder="Search Here...">
+          </div>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Start your day <br> with coffee</h1>
+            <p>We're a community-focused coffee shop, passionate about delivering exceptional coffee experiences. <br>Join us for your favorite brews, and enjoy a cozy, friendly atmosphere that’s all about quality and connection.
+            </p>
+            <!-- <a href="#" class="btn">Shop Now</a> -->
+            <!-- <a href="loginOrSignup" class="btn" id="shop-now-btn">Shop Now</a> -->
+            <button class="btn" id="shop-now-btn" onclick="loginOrSignup()">Shop Now</button>
+
+        </div>
+        <div class="home-img">
+            <img src="" alt="">
+        </div>
+    </section>
+
+   <!-- About -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="bg2.jpeg" alt="About page">
+            </div>
+            <div class="about-text">
+                <p>Our journey began in 2010, when a group of coffee enthusiasts decided to bring their passion for high-quality coffee to life. What started as a small neighborhood café has now grown into a beloved local coffee shop that serves as a gathering place for our community.
+
+                    Over the years, we’ve sourced the finest beans from sustainable farms around the world, ensuring that every cup we serve is rich, bold, and brewed to perfection. Our dedication to quality, from the beans we roast to the ambiance we create, has made us a staple for coffee lovers near and far.
+                    
+                    Whether you're grabbing a quick espresso on your way to work or sitting down for a leisurely afternoon with a cappuccino, our mission remains the same: to deliver an exceptional coffee experience with a personal touch.
+                    
+                    We’re proud to be part of the coffee culture in this town, and we look forward to continuing to serve our community for many years to come.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Products -->
+    <section class="products" id="products">
+        <h2 class="section-title">Our Products</h2>
+        
+        <div class="products-container">
+            <!-- Espresso Product -->
+            <div class="product-item">
+                <h3>Espresso</h3>
+                <div class="product-images">
+                    <div class="product-image-container">
+                        <img src="coffee1.jpeg" alt="Coffee 1">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Espresso1.jpeg" alt="Espresso 1">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Espresso2.jpeg" alt="Espresso 2">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Espresso3.jpeg" alt="Espresso 3">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Espresso4.jpeg" alt="Espresso 4">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Espresso5.jpeg" alt="Espresso 5">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Espresso6.jpeg" alt="Espresso 6">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Espresso7.jpeg" alt="Espresso 7">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Espresso8.jpeg" alt="Espresso 8">
+                    </div>
+                </div>
+                <p>A classic, bold espresso shot made from the finest beans.</p>
+                <span class="price">$3.00</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            
+            <!-- Cappuccino Product -->
+            <div class="product-item">
+                <h3>Cappuccino</h3>
+                <div class="product-images">
+                    <div class="product-image-container">
+                        <img src="coffee2.jpeg" alt="Coffee 2">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Cappuccino1.jpeg" alt="Cappuccino 1">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Cappuccino2.jpeg" alt="Cappuccino 2">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Cappuccino3.jpeg" alt="Cappuccino 3">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Cappuccino4.jpeg" alt="Cappuccino 4">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Cappuccino5.jpeg" alt="Cappuccino 5">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Cappuccino6.jpeg" alt="Cappuccino 6">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Cappuccino7.jpeg" alt="Cappuccino 7">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="Cappuccino8.jpeg" alt="Cappuccino 8">
+                    </div>
+                </div>
+                <p>Rich espresso topped with frothy steamed milk.</p>
+                <span class="price">$4.50</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            
+            <!-- Latte Product -->
+            <div class="product-item">
+                <h3>Latte</h3>
+                <div class="product-images">
+                    <div class="product-image-container">
+                        <img src="coffee3.jpg" alt="Coffee 3">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="latte1.jpeg" alt="Latte 1">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="latte2.jpeg" alt="Latte 2">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="latte3.jpeg" alt="Latte 3">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="latte4.jpeg" alt="Latte 4">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="latte5.jpeg" alt="Latte 5">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="latte6.jpeg" alt="Latte 6">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="latte7.jpeg" alt="Latte 7">
+                    </div>
+                    <div class="product-image-container">
+                        <img src="latte8.jpeg" alt="Latte 8">
+                    </div>
+                </div>
+                <p>Smooth, creamy latte made with rich espresso and steamed milk.</p>
+                <span class="price">$4.00</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+       
+    
+    <!-- Customers -->
+    <section class="customers" id="customers">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="customer-reviews">
+            <div class="customer-item">
+                <img src="customer1.jpeg" alt="Customer 1">
+                <p>"The best coffee shop in town! The espresso is always perfect. This is certainly a coffee worth trying. It has a distinctive and original flavour (in a good way!) that makes it worth purchasing. I would definitely recommend this cofffee to fans who would like something a bit different!"</p>
+                <h3>- James Warrena</h3>
+            </div>
+            <div class="customer-item">
+                <img src="customer2.jpeg" alt="Customer 2">
+                <p>"I love the ambiance and the variety of drinks available. My favorite is the cappuccino! First heard of this coffee in the film "The Bucket List" Found the coffee to be strong, but smooth with no after taste. Would recommend everyone to try it. Ideal for the special occasions."</p>
+                <h3>- Smith Jones</h3>
+            </div>
+            <div class="customer-item">
+                <img src="customer3.jpeg" alt="Customer 3">
+                <p>"Excellent service, the coffee is amazing. The customer service replied to one of my queries in no time. I will buy from them again and I will recommend to friends and family."</p>
+                <h3>- Mark Wilson</h3>
+            </div>
+            <div class="customer-item">
+                <img src="customer4.jpeg" alt="Customer 4">
+                <p>"I find, in life, you generally get what you pay for - and this is no exception. It won't replace my day-to-day coffee, but it's well worth splashing out on if I fancy some caffeine based, self-indulgence and luxury. Guests who try it are always sceptical, but after tasting, unanimously agree it has a superior, bitter-free taste than the run of the mill stuff."</p>
+                <h3>- Faith Kimberly</h3>
+            </div>
+            <div class="customer-item">
+                <img src="customer5.jpeg" alt="Customer 5">
+                <p>"I have always ordered this flavour(latte) from my previous coffee supplier, it's just as good now from Jumbo Coffees"</p>
+                <h3>- Hawkins Mwangi</h3>
+            </div>
+            <div class="customer-item">
+                <img src="customer6.jpeg" alt="Customer 6">
+                <p>"I just wanted to thank you for the excellent service I’ve received. Both parcels arrived in excellent time – the first one the day after I ordered it and the second, the day after you dispatched it. The way you kept me informed and did your best to fulfil my order was brilliant. Its refreshing to know that proper customer service is alive and well and an awful lot of companies could learn a thing or two from you. Thanks once again, I will definitely be back!"</p>
+                <h3>- Terry Rodriguez</h3>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+
+            <!-- Quick Links -->
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#customers">Customers</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section contact" id="contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="bx bx-map"></i> 123 Coffee Lane, Townsville</li>
+                    <li><i class="bx bx-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="bx bx-envelope"></i> info@coffeeshop.com</li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class='bx bxl-facebook'></i></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Coffee Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to JS -->
+    <script src="app.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+
+    <script src="https://api.openweathermap.org/data/2.5/weather?q=Nairobi,Kenya&appid=016a2b30ca738e6f0408bbcbf88d823c"></script>
+
+    <script src="https://api.yelp.com/v3/businesses/search?location=Nairobi,Kenya&term=coffee&limit=10"></script>
+
+    <script src="https://api.unsplash.com/search/photos?query=coffee&client_id=YOUR_API_KEY"></script>
+</body>
+</html>
