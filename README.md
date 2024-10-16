@@ -79,5 +79,5 @@ python -m http.server
 Contributions are welcome! If you'd like to improve the website or suggest new features, feel free to fork the repository and submit a pull request.
 
 ## **License**
-This project is licensed under the MIT License. See the [LICENSE]() file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/stephenombuya/Responsive-Coffee-Shop-Website/blob/main/LICENSE) file for details.
 
