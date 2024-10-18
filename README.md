@@ -11,9 +11,10 @@ Live Demo - [Coffee-Shop](https://thacoffeeshop.netlify.app/)
 * **Interactive Elements**: Includes animations and hover effects to enhance user engagement.
 * **Gallery Section**: Showcases images of the shop's ambiance and products.
 
-## **Preview**
+## **1stPreview**
 <!-- Add a screenshot of your website -->
 ![image](https://github.com/user-attachments/assets/adede25d-d44b-45a7-9dca-5bf91922ba50)
+To see the completed version visit [coffeeshop](https://thacoffeeshop.netlify.app/)
 
 
 ## **Technologies Used**
