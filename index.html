@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Coffee Shop Website</title>
+    <title>Coffee Shop</title>
     
     <!-- Link to CSS -->
     <link rel="stylesheet" href="styles.css">
 
     <!-- Box Icons -->
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <!-- Navbar -->
@@ -27,10 +27,20 @@
             <li><a href="#customers">Customers</a></li>
             <li><a href="#contact">Contact Us</a></li>
          </ul>
+
+        <!-- Mobile Navbar (Initially hidden) -->
+        <nav class="navbar-mobile">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#customers">Customers</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+
          <!-- Header Icon -->
           <div class="header-icon">
-            <i class='bx bx-cart-alt'></i>
-            <i class='bx bx-search' id="search-icon"></i>
+            <i class="fa-solid fa-cart-shopping" id="shopping-cart"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
           </div>
           <!-- Search Box -->
           <div class="search-box">
@@ -41,10 +51,8 @@
     <section class="home" id="home">
         <div class="home-text">
             <h1>Start your day <br> with coffee</h1>
-            <p>We're a community-focused coffee shop, passionate about delivering exceptional coffee experiences. <br>Join us for your favorite brews, and enjoy a cozy, friendly atmosphere that’s all about quality and connection.
+            <p>We're a community-focused coffee shop, <br> passionate about delivering exceptional coffee experiences. <br>Join us for your favorite brews, <br> and enjoy a cozy, friendly atmosphere that’s all about quality and connection.
             </p>
-            <!-- <a href="#" class="btn">Shop Now</a> -->
-            <!-- <a href="loginOrSignup" class="btn" id="shop-now-btn">Shop Now</a> -->
             <button class="btn" id="shop-now-btn" onclick="loginOrSignup()">Shop Now</button>
 
         </div>
@@ -59,6 +67,10 @@
         <div class="about-content">
             <div class="about-img">
                 <img src="bg2.jpeg" alt="About page">
+                <li><a href="#" id="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#" id="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" id="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" id="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
             </div>
             <div class="about-text">
                 <p>Our journey began in 2010, when a group of coffee enthusiasts decided to bring their passion for high-quality coffee to life. What started as a small neighborhood café has now grown into a beloved local coffee shop that serves as a gathering place for our community.
@@ -252,18 +264,19 @@
             <div class="footer-section contact" id="contact">
                 <h3>Contact Us</h3>
                 <ul>
-                    <li><i class="bx bx-map"></i> 123 Coffee Lane, Townsville</li>
-                    <li><i class="bx bx-phone"></i> +1 (555) 123-4567</li>
-                    <li><i class="bx bx-envelope"></i> info@coffeeshop.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Coffee Lane, Townsville</li>
+                    <li><i class="fa-solid fa-phone"></i>+1 (555) 123-4567</li>
+                    <li><i class="fa-regular fa-envelope"></i></i> info@coffeeshop.com</li>
                 </ul>
             </div>
 
             <!-- Social Media -->
             <div class="footer-section social">
                 <h3>Follow Us</h3>
-                <a href="#"><i class='bx bxl-facebook'></i></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <li><a href="#" id="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#" id="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" id="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" id="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
             </div>
         </div>
 
@@ -276,12 +289,5 @@
     <!-- Link to JS -->
     <script src="app.js"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-
-    <script src="https://api.openweathermap.org/data/2.5/weather?q=Nairobi,Kenya&appid=016a2b30ca738e6f0408bbcbf88d823c"></script>
-
-    <script src="https://api.yelp.com/v3/businesses/search?location=Nairobi,Kenya&term=coffee&limit=10"></script>
-
-    <script src="https://api.unsplash.com/search/photos?query=coffee&client_id=YOUR_API_KEY"></script>
 </body>
 </html>
